@@ -271,15 +271,13 @@ def exportReport():
             str_report += f"  {name}: Average Score = {avg_score:.2f}\n"
 
         top_performer, top_score = info['top_performer']
-        str_report += f"Top Performer: {
-            top_performer} Average score = {top_score:.2f}\n"
+        str_report += f"Top Performer: {top_performer} Average score = {top_score:.2f}\n"
 
         # หาว่าแผนกไหนมีคะแนนเฉลี่ยสูงสุด
         if avg_dept_score > best_department[1]:
             best_department = (dept, avg_dept_score)
 
-    str_report += f"\nBest Department: {
-        best_department[0]} Average score = {best_department[1]:.2f}\n"
+    str_report += f"\nBest Department: {best_department[0]} Average score = {best_department[1]:.2f}\n"
 
     with open("report.txt", "w") as file:
         file.write(str_report)
