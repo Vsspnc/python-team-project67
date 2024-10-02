@@ -1,0 +1,9 @@
+Summary Report:
+Department: HR
+  Alice: Average Score = 37.50
+Top Performer: Alice Average score = 37.50
+Department: QC
+  Harry: Average Score = 30.00
+Top Performer: Harry Average score = 30.00
+
+Best Department: HR Average score = 37.50

@@ -1,4 +1,4 @@
-import BinFileOperation as bfo
+import lib.BinFileOperation as bfo
 from os import system
 from numpy import asarray, isin, sort
 from pandas import DataFrame
@@ -88,7 +88,7 @@ while True:
                 print("Ctrl+C to cancel or go to the main menu")
                 col = input("(Edit) Select the option you want to edit: ")
                 column_choice = ['Name', 'Department', 'Score', 'Salary'][int(col) - 1]
-                print("Please enter a single ID or multiple IDs to search.")
+                print("Please enter a single ID or multiple IDs to edit.")
                 print("Example. [A single ID] Enter ID: 0001")
                 print("Example. [Multiple IDs] Enter ID: 0001 0002 0003")
                 multi_id = input("(Edit) Enter ID: ")
