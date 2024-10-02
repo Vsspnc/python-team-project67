@@ -47,7 +47,7 @@ while True:
                     print("2. [>=] More than or equal to ")
                     print("3. [<] Less than")
                     print("4. [<=] Less than or equal to")
-                    print("5. [=] Equal to (default)")
+                    print("5. [=] Equal to")
                     print("Ctrl+C to cancel or go to the main menu")
                     choice = input(f"(Display Specific) Please enter your choice (1-5): ")
                     compare_choice = ['More than', 'More than or equal to', 'Less than', 'Less than or equal to', 'Equal to'][int(choice) - 1]
