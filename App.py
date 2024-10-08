@@ -72,7 +72,14 @@ while True:
                 number_of_data = int(input("(Insert) Enter the number of employees: "))
                 for i in range(number_of_data):
                     print(f"Input data {i + 1}/{number_of_data}")
-                    id = input("(Insert) Enter the ID: ")
+                    while True:
+                        id = input("(Insert) Enter the ID: ")
+                        list_records = bfo.readDataFromBinFile()
+                        all_user_id = [user_data[0] for user_data in list_records]
+                        if id in all_user_id:
+                            print("ID already exists. Please enter a different ID.")
+                        else:
+                            break
                     name = input("(Insert) Enter the Name: ")
                     department = input("(Insert) Enter the Department: ")
                     print(f"Please enter the score (max 4 value). \nExample, Enter the score: 80 90 100 95")
