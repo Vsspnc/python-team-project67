@@ -1,3 +1,34 @@
 Summary Report:
+Department: IT
+  Nick: Average Score = 93.75
+Top Performer: Nick Average score = 93.75
+Department: QC
+  Alice: Average Score = 85.75
+  Korn: Average Score = 45.00
+Top Performer: Alice Average score = 85.75
+Department: Marketing
+  John: Average Score = 82.00
+  Jessica: Average Score = 82.00
+  Andrew: Average Score = 95.25
+Top Performer: Andrew Average score = 95.25
+Department: Finance
+  Emily: Average Score = 95.25
+  Daniel: Average Score = 78.75
+  Olivia: Average Score = 91.50
+Top Performer: Emily Average score = 95.25
+Department: HR
+  David: Average Score = 95.25
+  Sophia: Average Score = 95.25
+  James: Average Score = 82.00
+  Lily: Average Score = 35.00
+Top Performer: David Average score = 95.25
+Department: Engineering
+  Matthew: Average Score = 78.75
+  Sarah: Average Score = 95.25
+Top Performer: Sarah Average score = 95.25
+Department: Sales
+  Emma: Average Score = 91.50
+  Michael: Average Score = 78.75
+Top Performer: Emma Average score = 91.50
 
-Best Department: None Average score = 0.00
+Best Department: IT Average score = 93.75
